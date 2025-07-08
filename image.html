@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        img {
+            max-width: 100%;
+            height: auto;
+            cursor: pointer;
+        }
+
+        #preview {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            text-align: center;
+        }
+
+        #preview img {
+            max-width: 90%;
+            max-height: 90%;
+            margin-top: 5%;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <img src="C:\Users\STUDENT\Downloads\WhatsApp Image 2025-07-07 at 15.44.18.jpeg" onclick="showPreview(this.src)" />
+
+    <div id="preview" onclick="this.style.display='none'">
+        <img src="" id="zoomedImage" />
+    </div>
+
+    <script>
+        function showPreview(src) {
+            document.getElementById("zoomedImage").src = src;
+            document.getElementById("preview").style.display = "block";
+        }
+    </script>
+
+</body>
+<footer>
+    <p>&copy; Benson Ngugi.All Right Reserved 2026</p>
+    <p><a href="bensonngugi.tech@gmail.com">Email</a></p>
+</footer>
+
+</html>

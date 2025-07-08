@@ -1,0 +1,122 @@
+* {
+    background-color: white
+}
+
+body {
+    background-image: url("C:\Users\STUDENT\Downloads\WhatsApp Image 2025-06-21 at 06.53.28.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: rgb(72, 255, 0);
+}
+
+
+
+h1 {
+
+    text-decoration: NONE;
+    color: cadetblue;
+    font-size: 2rem;
+    font-family: 'poppins', 'san serif'
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 1em;
+
+}
+
+
+span ul li {
+    line-height: 1.6;
+    background-color: #75dd15;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ordered_list {
+    color: rgb(35, 13, 233);
+    font-size: 1.2rem;
+    border: 2px solid #1063e0;
+    padding: 7px;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    max-width: 600px;
+    margin: 15px auto;
+    color: #333;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+    border: 2px solid #007bff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    background-color: #f5faff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+
+
+}
+
+
+
+button {
+    background-color: #004cf1;
+    text-decoration: none;
+}
+
+ol li:hover {
+    background-color: #08e02c;
+    cursor: pointer;
+}
+
+ol li:active {
+    background-color: yellow;
+}
+
+.underline-btn {
+    color: white;
+    background-color: #005bbb;
+    /* initial blue */
+    border: 2px solid #005bbb;
+    padding: 12px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.5s ease, border-color 0.5s ease;
+    position: relative;
+    overflow: hidden;
+    animation: bluePulse 0.20s infinite alternate;
+
+}
+
+
+@keyframes bluePulse {
+    0% {
+        background-color: #005bbb;
+        border-color: #005bbb;
+    }
+
+    100% {
+        background-color: #75dd15;
+        border-color: #13c9b0;
+    }
+}
